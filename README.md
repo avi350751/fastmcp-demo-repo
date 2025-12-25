@@ -26,11 +26,12 @@ This repository uses FastMCP exclusively to build MCP-compatible tools and servi
 🧩 Project Structure
 fastmcp-demo-server/
 │
-├── main.py
+├── server.py
 │
 ├── tools/
 │   ├── math_tools.py
-│   ├── random_tools.py
+|   |-- misc_tools.py
+│   ├── text_tools.py
 │
 ├── agents/
 │   ├── agent_ready_mcp.py
